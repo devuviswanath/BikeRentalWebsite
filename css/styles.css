@@ -1,0 +1,646 @@
+main {
+	margin: 10px !important;
+}
+
+.area1 {
+	margin-bottom: 35px !important;
+	box-shadow: 2px 2px 4px 0px #555;
+}
+
+.area1-2 {
+	text-align: center;
+	padding: 15px;
+
+}
+
+.area2 {
+	/* box-shadow: 12px 12px 12px #404040; */
+	box-shadow: 4px 2px 4px 0px #555;
+}
+
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+.column3 {
+	padding: 15px;
+	font-size: 18px;
+}
+
+.column4 {
+	padding: 15px;
+	box-shadow: 2px 2px 4px 0px #555;
+	font-size: 18px;
+}
+
+.btn-primary {
+	background-color: black !important;
+}
+
+/* Style for the nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+	background-color: #FFA317;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.parallax_effect_yes {
+	background-attachment: fixed;
+}
+
+.banner_image {
+	position: relative;
+	width: 100%;
+	height: 580px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #444;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.heading_over_banner_image_wrapper {
+	z-index: 10;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.heading_over_image {
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgb(68 68 68 / 50%);
+	font-size: 54px;
+	margin-top: 0px;
+}
+
+.subheading_over_image {
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgb(68 68 68 / 25%);
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center aligns content */
+header {
+	text-align: center;
+}
+
+.logo {
+	padding-bottom: 25px;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: -0.2em;
+	padding: 2em;
+	background-color: #FFA317;
+	/* width:100% */
+
+}
+
+/* Style for anchor elements within the footer element */
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100%
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+.mobile_nodisply {
+	display: none;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+
+.row_home {
+	display: table;
+	clear: both;
+	padding-right: 4px !important;
+	padding-left: 4px !important;
+	box-shadow: 2px 2px 4px 0px #555;
+}
+
+.column1 {
+	float: left;
+	height: 150px;
+	width: 200px;
+
+
+}
+
+.column2 {
+	float: center;
+	width: 100%;
+	padding-right: 20px;
+	/* font-size:9px; */
+	height: 200px;
+	text-align: justify;
+}
+
+.mobile_nodisply {
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.column_img {
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.column_imgg {
+	float: center;
+	width: 100%;
+	height: 100%;
+}
+
+.column1_con {
+	float: left;
+	width: 5%;
+	padding-right: 15px;
+	height: 300px;
+}
+
+.column2_con {
+	float: right;
+	width: 5%;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	height: 300px;
+}
+
+.column_con_1 {
+	float: left;
+	width: 100%;
+	height: 10%;
+
+
+}
+
+.column_con_2 {
+	float: right;
+	width: 100%;
+	height: 10%;
+
+}
+
+.dec {
+	text-align: center;
+	padding-bottom: 10px
+}
+
+.con_1 {
+	width: 100%;
+	height: 50%
+}
+
+.row_con_1:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column1_con {
+
+	width: 100%;
+	padding: 10px;
+	height: 300px;
+}
+
+.column2_con {
+
+	width: 100%;
+	height: 50%;
+}
+
+/* Clear floats after the columns */
+.row_con:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px) {
+	.mobile_nodisply {
+		display: none;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	/* Style specifies to display the desktop class */
+	.desktop {
+		display: inline;
+	}
+
+	/* Style for table element */
+	table {
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+
+	/* Style specifies border and padding for th and td elements */
+	th,
+	td {
+		border: 0.1em solid #000000;
+		padding: 1em;
+	}
+
+	/* Style for th element */
+	th {
+		background-color: #1D1D1C;
+		color: #FFFFFF;
+	}
+
+	.row_home {
+		display: table;
+		clear: both;
+		padding-right: 4px !important;
+		padding-left: 4px !important;
+		box-shadow: 2px 2px 4px 0px #555;
+	}
+
+	.column1 {
+		float: left;
+		height: 150px;
+		width: 200px;
+
+
+	}
+
+	.column2 {
+		float: center;
+		width: 100%;
+		padding-right: 20px;
+		font-size: 18px;
+		height: 200px;
+		text-align: justify;
+	}
+
+	.mobile_nodisply {
+		float: center;
+		width: 30%;
+		padding: 10px;
+		height: 300px;
+	}
+
+	.column_img {
+		float: center;
+		width: 30%;
+		padding: 10px;
+		height: 300px;
+	}
+
+	.column_imgg {
+		float: right;
+		width: 30%;
+		padding: 7.7px;
+		height: 300px;
+	}
+
+	.column_con_1 {
+		float: left;
+		width: 50%;
+		height: 10%;
+
+
+	}
+
+	.column_con_2 {
+		float: right;
+		width: 50%;
+		height: 10%;
+
+	}
+
+	.con_1 {
+		width: 100%;
+		height: 50%
+	}
+
+	.row_con_1:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.column1_con {
+		float: left;
+		width: 25%;
+		padding: 10px;
+		height: 300px;
+	}
+
+	.column2_con {
+		float: right;
+		width: 50%;
+		padding-bottom: 10px;
+		height: 50%;
+	}
+
+	/* Clear floats after the columns */
+	.row_con:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.dec {
+		text-align: center;
+		padding-bottom: 10px;
+
+	}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 920px. */
+
+@media only screen and (min-width: 920px) {
+	.mobile_nodisply {
+		display: block;
+	}
+
+	/* Style for table element */
+	table {
+		border: 0.1em solid #000000;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+
+	/* Style specifies border and padding for th and td elements */
+	th,
+	td {
+		border: 0.1em solid #000000;
+		padding: 1em;
+	}
+
+	/* Style for th element */
+	th {
+		background-color: #1D1D1C;
+		color: #FFFFFF;
+	}
+
+	/* Style to left align header */
+	header {
+		text-align: left;
+	}
+
+	.logo {
+		padding-left: 25px;
+		display: inline-block;
+		margin-top: 0px;
+		float: left;
+		margin-right: 75px;
+		height: 100%;
+	}
+
+	/* Style for nav specifies a float, margin, and width */
+	nav {
+		margin: 0px 0px 0px 230px;
+		text-align: left;
+		padding-top: 0px;
+		height: 100%;
+		background-color: #FFA317;
+	}
+
+	/* Style specifies margin and padding for the unordered list within the nav */
+	nav ul {
+		font-size: 14px;
+		list-style: none;
+		margin: 0 0 0 -0.8125em;
+		padding-left: 0;
+		z-index: 99999;
+		text-align: right;
+		display: inline;
+		padding: 12px 0px;
+	}
+
+	/* Style for navigation list items specifies a border radius, border, margin, width, and padding */
+	nav li {
+		display: inline-block;
+		text-align: left;
+		position: relative;
+		-webkit-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+		-o-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+		height: 100%;
+	}
+
+	/* Style for navigation links specifies display and padding */
+	nav li a {
+		display: block;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 23px 20px;
+		color: #484848;
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	/* Style rules for pseudo-classes */
+	nav li a:link {
+		color: #FFFFFF;
+	}
+
+	nav li a:visited {
+		color: #CCCCFF;
+	}
+
+	nav li a:hover {
+		color: #9D9D93;
+		font-style: italic;
+	}
+
+	/* Style applies color to h1 element */
+	h1 {
+		color: #FFFFFF;
+	}
+
+	body {
+		background-color: #FFFFFF;
+	}
+
+	/* Style specifies a background color, margin, and padding for footer element */
+	footer {
+		background-color: #FFA317;
+		margin-top: -0.2em;
+		padding: 2em;
+	}
+
+	.row_home {
+		display: table;
+		clear: both;
+		padding-right: 4px !important;
+		padding-left: 4px !important;
+		box-shadow: 2px 2px 4px 0px #555;
+	}
+
+	.column1 {
+		float: left;
+		height: 25%;
+		width: 40%;
+		padding: 20px;
+		height: 280px;
+		margin-bottom: 35px !important;
+
+	}
+
+	.column2 {
+		/* float: right; */
+		width: 50%;
+		padding: 20px;
+		height: 300px;
+		text-align: justify;
+		padding: 15px;
+		font-size: 18px;
+	}
+
+	.column_2 {
+		text-align: center;
+	}
+
+
+	.column1_con {
+		float: left;
+		width: 25%;
+		padding: 10px;
+		height: 300px;
+	}
+
+	.column2_con {
+		float: left;
+		width: 50%;
+		padding-bottom: 10px;
+		height: 50%;
+	}
+
+	/* Clear floats after the columns */
+	.row_con:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.mobile_nodisply {
+		float: left;
+		width: 30%;
+		padding-left: 10px;
+		height: 300px;
+	}
+
+	.column_img {
+		float: left;
+		width: 30%;
+		padding-left: 10px;
+		height: 300px;
+	}
+
+	.column_imgg {
+		float: left;
+		width: 30%;
+		padding: 10px;
+		height: 300px;
+	}
+
+	/* Clear floats after the columns */
+	.row_img:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+
+	/* Create two equal columns that floats next to each other */
+	.column_con_1 {
+		float: left;
+		width: 50%;
+		height: 50%
+	}
+
+	.column_con_2 {
+		float: right;
+		width: 50%;
+		height: 50%
+	}
+
+	.con_1 {
+		width: 90%;
+		height: 50%
+	}
+
+	/* Clear floats after the columns */
+	.row_con_1:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
+
+
+input,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}

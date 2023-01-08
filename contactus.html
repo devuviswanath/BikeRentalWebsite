@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Gear Bike Rental Company</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		function buttonClicked() {
+			alert("Submitted the form.")
+			window.location.href = "home.html"
+		}
+	</script>
+</head>
+
+<body>
+
+
+
+	<!-- Use the header area for the website name or logo -->
+	<header>
+
+		<div class="logo">
+			<a href="home.html">
+				<img src="images/logo.png" alt="logo">
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="rental.html">Rental</a></li>
+				<li><a href="review.html">Review</a></li>
+				<li><a href="termsandconditions.html">Terms and Conditions</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="banner_image parallax_effect_yes"
+			style="background-image:url(images/contact.jpg); height:400px; background-attachment: fixed;">
+			<div class="banner_image_overlay" style="background-color:#688080;opacity:0;background-image:url();">
+			</div>
+			<div class="heading_over_banner_image_wrapper">
+				<h1 class="heading_over_image">CONTACT US</h1>
+			</div>
+		</div>
+
+	</header>
+	<main>
+
+
+		<div class="row_con">
+			<div class="column1_con">
+				<p>We are located at:<br>
+					25743 Bloom Court<br>
+					Locket, GA 85524</p>
+
+				<p>Phone Number</p>
+				<p><a class="mobile" href="tel:8145559608">(814) 555-9608</a>
+					<span class="desktop">(814) 555-9608</span>
+				</p>
+
+				<p>Email Address</p>
+				<a href="mailto:gearbikerentals@gearcompanies.org" class="contact">gearbikerentals@gearcompanies.org</a>
+				</p>
+			</div>
+			<div class="column2_con">
+				<form>
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.."
+						style="height:50px"></textarea>
+
+					<input type="submit" value="Submit" onclick="buttonClicked()">
+				</form>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+		&copy; Copyright 2020. All Rights Reserved.<br>
+		<a href="mailto:gearbikerentals@gearcompanies.org">gearbikerentals@gearcompanies.org</a>
+	</footer>
+
+</html>

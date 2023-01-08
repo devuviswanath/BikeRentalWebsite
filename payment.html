@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gear Bike Rental Company</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+function buttonClicked(){
+    alert("Submitted the form.")
+    window.location.href="home.html"
+}
+    </script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- Use the header area for the website name or logo -->
+        <header>
+
+            <div class="logo">
+                <a href="home.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="rental.html">Rental</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="termsandconditions.html">Terms and Conditions</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="banner_image parallax_effect_yes"
+                style="background-image:url(images/faq.jpg); height:400px; background-attachment: fixed;">
+                <div class="banner_image_overlay" style="background-color:#688080;opacity:0;background-image:url();">
+                </div>
+                <div class="heading_over_banner_image_wrapper">
+                    <h1 class="heading_over_image">PAYMENT</h1>
+                </div>
+            </div>
+
+        </header><!-- Use the main area to add the main content of the webpage -->
+        <main>
+            <div class="container"><br />
+                <div class="row"><br />
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6" style="background-color: white;box-shadow: 2px 2px 4px 0px #555;"><br />
+                        <div class="col-md-12" style="background-color: white;text-align:center;">
+                            <h1>Ready to GET STARTED?</h1>
+                        </div>
+                        <div class="col-md-12" style="background-color: white;text-align:center;">
+                            <h1 style="font-size: 25px">Complete the form below to book your first ride</h1>
+                        </div>
+                        <form class="form-horizontal"><br /><br />
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="first_name" style="font-size: 15px">First
+                                    Name</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" id="first_name"
+                                        placeholder="Enter your first name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="last_name" style="font-size: 15px">Last
+                                    Name</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" id="last_name"
+                                        placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="email_id" style="font-size: 15px">Email
+                                    ID</label>
+                                <div class="col-sm-5">
+                                    <input type="email" class="form-control" id="email_id"
+                                        placeholder="Enter your email id"
+                                        pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="phone" style="font-size: 15px">Mobile
+                                    Number</label>
+                                <div class="col-sm-5">
+                                    <input type="tel" class="form-control" id="phone"
+                                        placeholder="Enter your mobile number" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="start_date" style="font-size: 15px">Start
+                                    Date</label>
+                                <div class="col-sm-5">
+                                    <input type="date" class="form-control" id="start_date"
+                                        placeholder="Enter start date" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="start_time" style="font-size: 15px">Start
+                                    Time</label>
+                                <div class="col-sm-5">
+                                    <input type="time" class="form-control" id="start_time"
+                                        placeholder="Enter start time" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="end_date" style="font-size: 15px">End
+                                    Date</label>
+                                <div class="col-sm-5">
+                                    <input type="date" class="form-control" id="end_date" placeholder="Enter end date"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="end_time" style="font-size: 15px">End
+                                    Time</label>
+                                <div class="col-sm-5">
+                                    <input type="time" class="form-control" id="end_time" placeholder="Enter end time"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-5" for="amount" style="font-size: 15px">Amount
+                                    (CAD)</label>
+                                <div class="col-sm-5">
+                                    <input type="number" class="form-control" id="amount" placeholder="Enter the amount"
+                                        min="10" max="1000" required>
+                                </div>
+                            </div><br />
+                            <div class="input-group-btn" style="text-align:center;">
+                                <input type="submit" name="submit" class="btn btn-primary btn-md" onclick="buttonClicked()"
+                                    value="Submit and Pay"></button>
+                            </div><br />
+                        </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div><br /><br />
+
+        </main>
+
+        <!-- Use the footer area to add webpage footer content -->
+        <div class="footer_area">
+            <footer>
+                &copy; Copyright 2020. All Rights Reserved.<br>
+                <a href="mailto:gearbikerentals@gearcompanies.org">gearbikerentals@gearcompanies.org</a>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
